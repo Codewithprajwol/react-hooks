@@ -1,0 +1,3 @@
+# so what is happening here is that when i called the function it take too much time as it has too much calculation to perform so when even other state changes this code run ........ So, by using this memo function it can actually solve this problem and when called when then variable related to that function changes.
+
+# here what i get to know it that when re-render the themestyle refrences also changes so that when i change the input it also means changing of the styleTheme and useEffect runs ... which can be fixed by useMemo
